@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ul li {
+    list-style-type: none;
+}
 .page {
     margin: 10px;
     display: grid;
@@ -16,7 +18,7 @@
 }
 
 .sidebar {
-     background-color: blue;
+     background-color: rgb(95, 95, 250);
     grid-area: sidebar;
 }
 
