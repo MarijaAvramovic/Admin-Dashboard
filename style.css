@@ -9,7 +9,7 @@ ul li {
 .page {
     margin: 10px;
     display: grid;
-    grid-template-columns: 22% auto;
+    grid-template-columns:  22% auto;
     grid-template-rows: 20vh minmax(80vh, auto);
 
     grid-template-areas: "sidebar header" 
@@ -18,8 +18,13 @@ ul li {
 }
 
 .sidebar {
-     background-color: rgb(95, 95, 250);
-    grid-area: sidebar;
+     background-color: rgb(54, 138, 215);
+     color: aliceblue;
+     padding: 1rem 1.1rem;
+     grid-area: sidebar;
+    display: grid;
+     grid-template-rows: 10% 30% auto;
+     
 }
 
 .main {
