@@ -4,26 +4,28 @@
     box-sizing: border-box;
 }
 
-.container {
+.page {
     margin: 10px;
-    height: 100vh;
     display: grid;
     grid-template-columns: 22% auto;
-    grid-template-rows: 20% auto;
-   
+    grid-template-rows: 20vh minmax(80vh, auto);
 
+    grid-template-areas: "sidebar header" 
+    "sidebar main"
+    ;
 }
 
 .sidebar {
-    grid-column: 1 / 2;
-    grid-row: 1 / 3;
-     background-color: pink;
+     background-color: blue;
+    grid-area: sidebar;
 }
 
 .main {
-    background-color: red;
+    background-color: lightgray;
+    grid-area: main;
 }
 .header {
-    background-color: purple;
-    grid-row: 1 / 2;
+    background-color: whitesmoke;
+    grid-area: header;
+    
 }
