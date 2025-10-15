@@ -34,5 +34,21 @@ ul li {
 .header {
     background-color: whitesmoke;
     grid-area: header;
+    display: grid;
+    padding: 0.8rem 1.2rem;
+    grid-template-areas: "nav-search nav-user-info"
+    "user-info buttons";
+}
+.nav-search {
+    grid-area: nav-search;
+}
+.nav-user-info {
+    grid-area: nav-user-info;
     
+}
+.user-info {
+    grid-area: user-info;
+}
+.buttons {
+    grid-area: buttons;
 }
