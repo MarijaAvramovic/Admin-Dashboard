@@ -11,16 +11,15 @@ In the header, I used more grids to lay out the search bar, user info and button
 For the main-content, I used more grids to lay out the projects, announcements and trending items.
 
  
-Created a dashboard example from Odin Project. USed font awesome icons.
+Created a dashboard example from Odin Project. I used font awesome icons.
 
-Choose your own fonts! The design example uses Roboto, which is available with Google fonts. (You may want to review the More Text Styles Lesson for information about how to include external fonts in your projects).
+I used my own fonts, font face!  
  
  
 This project is not responsive, but I added autofill to expand or shrink the project cards section when resizing the browser window.
 
  
  
- cards 
+ Time spent: 4x2h.
  
- shadow
- publish...
+ 
