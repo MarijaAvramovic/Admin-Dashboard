@@ -44,22 +44,31 @@ ul li {
 
 .card{
     background-color: rgb(253, 253, 253);
-    padding: 1rem;
+    padding: 2rem;
     font-size: 0.8rem;
     border-radius: 4%;
     border-left: 5px solid rgb(219, 173, 65);
+    
+    
+}
+.card > :nth-child(2){
+    text-align: end;
+    margin-top: 2rem;
 }
 .projects-grid {
      
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));;
     gap: 1rem;
     margin-top: 0.8rem;
+     
+    
  
 }
 
 .projects {
     grid-area: projects;
+    
     
 }
 .announcements {
