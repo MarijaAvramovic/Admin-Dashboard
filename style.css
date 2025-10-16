@@ -71,16 +71,20 @@ ul li {
     margin-top: 0.8rem;
     font-size: 0.8rem;
     border-radius: 4%;
-     
+      
     display: grid;
   grid-template-columns: 1fr; 
   grid-template-rows: repeat(3, minmax(0, 1fr));  
    
  
 }
+.announcements-grid > :nth-child(2){
+border-top: 2px solid rgb(200, 196, 187) ;
+border-bottom: 2px solid rgb(200, 196, 187) ;
+}
 
 .announcements-grid div {
-      border-bottom: 2px solid rgb(200, 196, 187);
+       
       padding: .8rem;
       margin: 0 2rem;
      
@@ -164,7 +168,7 @@ button {
 .nav-user-info{
     grid-area: nav-user-info;  
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 3fr;
     gap: 1rem;
     justify-items: end;
     align-items: center;
